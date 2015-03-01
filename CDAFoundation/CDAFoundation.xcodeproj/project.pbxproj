@@ -11,7 +11,7 @@
 		6EB86DB41AA2EBFA00C7F454 /* CDAFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86DA81AA2EBFA00C7F454 /* CDAFoundation.framework */; };
 		6EB86DBB1AA2EBFA00C7F454 /* CDAFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86DBA1AA2EBFA00C7F454 /* CDAFoundationTests.m */; };
 		6EB86DE41AA2ECA000C7F454 /* ObjFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86DD91AA2EC2A00C7F454 /* ObjFW.framework */; };
-		6EB86DEA1AA2ED7D00C7F454 /* CDAError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86DE81AA2ED7D00C7F454 /* CDAError.h */; };
+		6EB86DEA1AA2ED7D00C7F454 /* CDAError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86DE81AA2ED7D00C7F454 /* CDAError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86DEB1AA2ED7D00C7F454 /* CDAError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86DE91AA2ED7D00C7F454 /* CDAError.m */; };
 /* End PBXBuildFile section */
 
@@ -505,6 +505,7 @@
 				6EB86DC01AA2EBFA00C7F454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EB86DC11AA2EBFA00C7F454 /* Build configuration list for PBXNativeTarget "CDAFoundationTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				6EB86DC31AA2EBFA00C7F454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

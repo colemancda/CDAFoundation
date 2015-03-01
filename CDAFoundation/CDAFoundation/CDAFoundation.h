@@ -6,14 +6,7 @@
 //  Copyright (c) 2015 ColemanCDA. All rights reserved.
 //
 
-#import <ObjFW/ObjFW.h>
+@import ObjFW;
 
-//! Project version number for CDAFoundation.
-FOUNDATION_EXPORT double CDAFoundationVersionNumber;
-
-//! Project version string for CDAFoundation.
-FOUNDATION_EXPORT const unsigned char CDAFoundationVersionString[];
-
-#import <CDAFoundation/PublicHeader.h>
-
+#import <CDAFoundation/CDAError.h>
 
