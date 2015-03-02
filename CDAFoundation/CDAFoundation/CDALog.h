@@ -17,7 +17,7 @@
 +(instancetype)defaultLog;
 
 /* Log that outputs to the specified path. */
--(instancetype)initWithPath:(OFString *)path;
+-(instancetype)initWithPath:CDADefaultLog;
 
 #pragma mark - Methods
 
@@ -25,7 +25,7 @@
 
 @end
 
-#pragma mark - Macros
+#pragma mark - Functions
 
-/* Convenience macro for logging. */
-#define CDALog(message) [[CDALog defaultLog] log:message]
+/* Convenience function for logging. */
+void CDADefaultLog(OFString *message);

@@ -7,11 +7,11 @@
 //
 
 #import <ObjFW/ObjFW.h>
-#import <CDAFoundation/CDALog.h>
 
 #if TARGET_OS_MAC
 
 @import Foundation;
+#import <CDAFoundation/CDALog.h>
 
 @interface CDAAppleLog: CDALog
 
