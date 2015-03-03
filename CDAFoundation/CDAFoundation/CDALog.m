@@ -9,36 +9,17 @@
 #import "CDALog.h"
 
 #if TARGET_OS_MAC
-#import <CDAFoundation/CDAAppleLog.h>
+@import Foundation;
 #endif
 
-@implementation CDALog
-
-#pragma mark - Initialization
-
-+ (instancetype)defaultLog
-{
-    static CDALog *sharedStore = nil;
+/* Convenience function for logging. */
+void CDALog(OFString *message) {
     
-    static dispatch_once_t onceToken;
-    
-    dispatch_once(&onceToken, ^{
-        
 #if TARGET_OS_MAC
-        
-        sharedStore = [[CDAAppleLog alloc] init];
-
+    NSLog(@"%@", message);
 #else
-        
-        sharedStore = [[self alloc] init];
-        
+    printf(message.char)
 #endif
-        
-    });
-    
-    return sharedStore;
 }
-
-@end
 
 

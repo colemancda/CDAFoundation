@@ -6,3 +6,5 @@
 //  Copyright (c) 2015 ColemanCDA. All rights reserved.
 //
 
+typedef int CDAInteger;
+typedef uint CDAUInteger;

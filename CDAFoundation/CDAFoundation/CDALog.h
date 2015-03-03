@@ -9,23 +9,7 @@
 #import <ObjFW/ObjFW.h>
 #include <dispatch/dispatch.h>
 
-@interface CDALog : OFObject
-
-#pragma mark - Initialization
-
-/* The default log. */
-+(instancetype)defaultLog;
-
-/* Log that outputs to the specified path. */
--(instancetype)initWithPath:CDADefaultLog;
-
-#pragma mark - Methods
-
--(void)log:(OFString *)message;
-
-@end
-
 #pragma mark - Functions
 
 /* Convenience function for logging. */
-void CDADefaultLog(OFString *message);
+void CDALog(OFString *message);

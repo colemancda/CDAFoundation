@@ -6,8 +6,3 @@
 //  Copyright (c) 2015 ColemanCDA. All rights reserved.
 //
 
-#ifndef CDAFoundation_CDAEnum_h
-#define CDAFoundation_CDAEnum_h
-
-
-#endif

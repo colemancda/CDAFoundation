@@ -16,8 +16,6 @@
 		6EB86E0A1AA2F4AA00C7F454 /* CDAInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86E091AA2F4AA00C7F454 /* CDAInteger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86E111AA2F56000C7F454 /* CDALog.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86E0F1AA2F56000C7F454 /* CDALog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86E121AA2F56000C7F454 /* CDALog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86E101AA2F56000C7F454 /* CDALog.m */; };
-		6EB86E151AA2FB0F00C7F454 /* CDAAppleLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86E131AA2FB0F00C7F454 /* CDAAppleLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EB86E161AA2FB0F00C7F454 /* CDAAppleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86E141AA2FB0F00C7F454 /* CDAAppleLog.m */; };
 		6EB86E181AA3003000C7F454 /* CDAEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86E171AA3002D00C7F454 /* CDAEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -79,8 +77,6 @@
 		6EB86E091AA2F4AA00C7F454 /* CDAInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAInteger.h; sourceTree = "<group>"; };
 		6EB86E0F1AA2F56000C7F454 /* CDALog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDALog.h; sourceTree = "<group>"; };
 		6EB86E101AA2F56000C7F454 /* CDALog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDALog.m; sourceTree = "<group>"; };
-		6EB86E131AA2FB0F00C7F454 /* CDAAppleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAAppleLog.h; sourceTree = "<group>"; };
-		6EB86E141AA2FB0F00C7F454 /* CDAAppleLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAAppleLog.m; sourceTree = "<group>"; };
 		6EB86E171AA3002D00C7F454 /* CDAEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAEnum.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,8 +129,6 @@
 				6EB86DE91AA2ED7D00C7F454 /* CDAError.m */,
 				6EB86E0F1AA2F56000C7F454 /* CDALog.h */,
 				6EB86E101AA2F56000C7F454 /* CDALog.m */,
-				6EB86E131AA2FB0F00C7F454 /* CDAAppleLog.h */,
-				6EB86E141AA2FB0F00C7F454 /* CDAAppleLog.m */,
 				6EB86DAB1AA2EBFA00C7F454 /* Supporting Files */,
 			);
 			path = CDAFoundation;
@@ -185,7 +179,6 @@
 			files = (
 				6EB86E181AA3003000C7F454 /* CDAEnum.h in Headers */,
 				6EB86DEA1AA2ED7D00C7F454 /* CDAError.h in Headers */,
-				6EB86E151AA2FB0F00C7F454 /* CDAAppleLog.h in Headers */,
 				6EB86E111AA2F56000C7F454 /* CDALog.h in Headers */,
 				6EB86DAE1AA2EBFA00C7F454 /* CDAFoundation.h in Headers */,
 				6EB86E0A1AA2F4AA00C7F454 /* CDAInteger.h in Headers */,
@@ -327,7 +320,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EB86DEB1AA2ED7D00C7F454 /* CDAError.m in Sources */,
-				6EB86E161AA2FB0F00C7F454 /* CDAAppleLog.m in Sources */,
 				6EB86E121AA2F56000C7F454 /* CDALog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
