@@ -10,8 +10,6 @@
 
 #import <CDAFoundation/CDAError.h>
 #import <CDAFoundation/CDAInteger.h>
-#import <CDAFoundation/CDALog.h>
-#import <CDAFoundation/CDAEnum.h>
 
 
 

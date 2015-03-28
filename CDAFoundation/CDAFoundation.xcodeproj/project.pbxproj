@@ -7,16 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E00E9621AC627B400C91E24 /* ObjFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00E9611AC627B400C91E24 /* ObjFW.framework */; };
 		6EB86DAE1AA2EBFA00C7F454 /* CDAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86DAD1AA2EBFA00C7F454 /* CDAFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86DB41AA2EBFA00C7F454 /* CDAFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86DA81AA2EBFA00C7F454 /* CDAFoundation.framework */; };
 		6EB86DBB1AA2EBFA00C7F454 /* CDAFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86DBA1AA2EBFA00C7F454 /* CDAFoundationTests.m */; };
-		6EB86DE41AA2ECA000C7F454 /* ObjFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86DD91AA2EC2A00C7F454 /* ObjFW.framework */; };
 		6EB86DEA1AA2ED7D00C7F454 /* CDAError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86DE81AA2ED7D00C7F454 /* CDAError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86DEB1AA2ED7D00C7F454 /* CDAError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86DE91AA2ED7D00C7F454 /* CDAError.m */; };
 		6EB86E0A1AA2F4AA00C7F454 /* CDAInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86E091AA2F4AA00C7F454 /* CDAInteger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EB86E111AA2F56000C7F454 /* CDALog.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86E0F1AA2F56000C7F454 /* CDALog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EB86E121AA2F56000C7F454 /* CDALog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86E101AA2F56000C7F454 /* CDALog.m */; };
-		6EB86E181AA3003000C7F454 /* CDAEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86E171AA3002D00C7F454 /* CDAEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,57 +24,19 @@
 			remoteGlobalIDString = 6EB86DA71AA2EBFA00C7F454;
 			remoteInfo = CDAFoundation;
 		};
-		6EB86DD61AA2EC2A00C7F454 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EB86DCD1AA2EC2A00C7F454 /* ObjFW.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4BF33AF0133807310059CEF7;
-			remoteInfo = Tests;
-		};
-		6EB86DD81AA2EC2A00C7F454 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EB86DCD1AA2EC2A00C7F454 /* ObjFW.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4B3D23761337FBC800DD29B8;
-			remoteInfo = ObjFW;
-		};
-		6EB86DDA1AA2EC2A00C7F454 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EB86DCD1AA2EC2A00C7F454 /* ObjFW.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4B187E0E163EA29F0049A832;
-			remoteInfo = "ObjFW-Bridge";
-		};
-		6EB86DDC1AA2EC2A00C7F454 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EB86DCD1AA2EC2A00C7F454 /* ObjFW.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4B23CA8A133811610047A1D9;
-			remoteInfo = TestPlugin;
-		};
-		6EB86DDE1AA2EC4D00C7F454 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EB86DCD1AA2EC2A00C7F454 /* ObjFW.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B3D23751337FBC800DD29B8;
-			remoteInfo = ObjFW;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E00E9611AC627B400C91E24 /* ObjFW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjFW.framework; path = ../../../../../../Library/Frameworks/ObjFW.framework; sourceTree = "<group>"; };
 		6EB86DA81AA2EBFA00C7F454 /* CDAFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDAFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB86DAC1AA2EBFA00C7F454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EB86DAD1AA2EBFA00C7F454 /* CDAFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAFoundation.h; sourceTree = "<group>"; };
 		6EB86DB31AA2EBFA00C7F454 /* CDAFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDAFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB86DB91AA2EBFA00C7F454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EB86DBA1AA2EBFA00C7F454 /* CDAFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAFoundationTests.m; sourceTree = "<group>"; };
-		6EB86DCD1AA2EC2A00C7F454 /* ObjFW.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjFW.xcodeproj; path = ../objfw/ObjFW.xcodeproj; sourceTree = "<group>"; };
 		6EB86DE81AA2ED7D00C7F454 /* CDAError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAError.h; sourceTree = "<group>"; };
 		6EB86DE91AA2ED7D00C7F454 /* CDAError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAError.m; sourceTree = "<group>"; };
 		6EB86E091AA2F4AA00C7F454 /* CDAInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAInteger.h; sourceTree = "<group>"; };
-		6EB86E0F1AA2F56000C7F454 /* CDALog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDALog.h; sourceTree = "<group>"; };
-		6EB86E101AA2F56000C7F454 /* CDALog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDALog.m; sourceTree = "<group>"; };
-		6EB86E171AA3002D00C7F454 /* CDAEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAEnum.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB86DE41AA2ECA000C7F454 /* ObjFW.framework in Frameworks */,
+				6E00E9621AC627B400C91E24 /* ObjFW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +62,7 @@
 		6EB86D9E1AA2EBFA00C7F454 = {
 			isa = PBXGroup;
 			children = (
-				6EB86DCD1AA2EC2A00C7F454 /* ObjFW.xcodeproj */,
+				6E00E9611AC627B400C91E24 /* ObjFW.framework */,
 				6EB86DAA1AA2EBFA00C7F454 /* CDAFoundation */,
 				6EB86DB71AA2EBFA00C7F454 /* CDAFoundationTests */,
 				6EB86DA91AA2EBFA00C7F454 /* Products */,
@@ -124,11 +83,8 @@
 			children = (
 				6EB86DAD1AA2EBFA00C7F454 /* CDAFoundation.h */,
 				6EB86E091AA2F4AA00C7F454 /* CDAInteger.h */,
-				6EB86E171AA3002D00C7F454 /* CDAEnum.h */,
 				6EB86DE81AA2ED7D00C7F454 /* CDAError.h */,
 				6EB86DE91AA2ED7D00C7F454 /* CDAError.m */,
-				6EB86E0F1AA2F56000C7F454 /* CDALog.h */,
-				6EB86E101AA2F56000C7F454 /* CDALog.m */,
 				6EB86DAB1AA2EBFA00C7F454 /* Supporting Files */,
 			);
 			path = CDAFoundation;
@@ -159,17 +115,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6EB86DCE1AA2EC2A00C7F454 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6EB86DD71AA2EC2A00C7F454 /* Tests */,
-				6EB86DD91AA2EC2A00C7F454 /* ObjFW.framework */,
-				6EB86DDB1AA2EC2A00C7F454 /* ObjFW-Bridge.framework */,
-				6EB86DDD1AA2EC2A00C7F454 /* TestPlugin.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -177,9 +122,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB86E181AA3003000C7F454 /* CDAEnum.h in Headers */,
 				6EB86DEA1AA2ED7D00C7F454 /* CDAError.h in Headers */,
-				6EB86E111AA2F56000C7F454 /* CDALog.h in Headers */,
 				6EB86DAE1AA2EBFA00C7F454 /* CDAFoundation.h in Headers */,
 				6EB86E0A1AA2F4AA00C7F454 /* CDAInteger.h in Headers */,
 			);
@@ -200,7 +143,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6EB86DDF1AA2EC4D00C7F454 /* PBXTargetDependency */,
 			);
 			name = CDAFoundation;
 			productName = CDAFoundation;
@@ -252,12 +194,6 @@
 			mainGroup = 6EB86D9E1AA2EBFA00C7F454;
 			productRefGroup = 6EB86DA91AA2EBFA00C7F454 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 6EB86DCE1AA2EC2A00C7F454 /* Products */;
-					ProjectRef = 6EB86DCD1AA2EC2A00C7F454 /* ObjFW.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				6EB86DA71AA2EBFA00C7F454 /* CDAFoundation */,
@@ -265,37 +201,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		6EB86DD71AA2EC2A00C7F454 /* Tests */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = Tests;
-			remoteRef = 6EB86DD61AA2EC2A00C7F454 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6EB86DD91AA2EC2A00C7F454 /* ObjFW.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ObjFW.framework;
-			remoteRef = 6EB86DD81AA2EC2A00C7F454 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6EB86DDB1AA2EC2A00C7F454 /* ObjFW-Bridge.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = "ObjFW-Bridge.framework";
-			remoteRef = 6EB86DDA1AA2EC2A00C7F454 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6EB86DDD1AA2EC2A00C7F454 /* TestPlugin.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = TestPlugin.bundle;
-			remoteRef = 6EB86DDC1AA2EC2A00C7F454 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6EB86DA61AA2EBFA00C7F454 /* Resources */ = {
@@ -320,7 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EB86DEB1AA2ED7D00C7F454 /* CDAError.m in Sources */,
-				6EB86E121AA2F56000C7F454 /* CDALog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,11 +243,6 @@
 			isa = PBXTargetDependency;
 			target = 6EB86DA71AA2EBFA00C7F454 /* CDAFoundation */;
 			targetProxy = 6EB86DB51AA2EBFA00C7F454 /* PBXContainerItemProxy */;
-		};
-		6EB86DDF1AA2EC4D00C7F454 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ObjFW;
-			targetProxy = 6EB86DDE1AA2EC4D00C7F454 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -439,13 +338,19 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/CDAWiFi-gqwgfauvbrowtreslwfdnbjlyyjc/Build/Products/Debug",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = CDAFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-fblocks",
+					"-fconstant-string-class=OFConstantString",
+					"-fno-constant-cfstrings",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -460,13 +365,19 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/CDAWiFi-gqwgfauvbrowtreslwfdnbjlyyjc/Build/Products/Debug",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = CDAFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-fblocks",
+					"-fconstant-string-class=OFConstantString",
+					"-fno-constant-cfstrings",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
