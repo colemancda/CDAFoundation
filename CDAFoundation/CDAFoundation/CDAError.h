@@ -28,10 +28,10 @@ extern OFString * const CDAErrorDescriptionKey;
 
 @property (readonly) CDAInteger code;
 
-@property (readonly, copy) OFString *domain;
+@property (readonly) OFString *domain;
 
-@property (readonly, copy) OFDictionary *userInfo;
+@property (readonly) OFDictionary *userInfo;
 
-@property (readonly, copy) OFString *description;
+@property (readonly) OFString *description;
 
 @end

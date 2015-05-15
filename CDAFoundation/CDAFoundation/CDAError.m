@@ -14,11 +14,11 @@ OFString * const CDAErrorDescriptionKey = @"CDAErrorDescriptionKey";
 
 @property CDAInteger code;
 
-@property (copy) OFString *domain;
+@property OFString *domain;
 
-@property (copy) OFDictionary *userInfo;
+@property OFDictionary *userInfo;
 
-@property (copy) OFString *description;
+@property OFString *description;
 
 @end
 

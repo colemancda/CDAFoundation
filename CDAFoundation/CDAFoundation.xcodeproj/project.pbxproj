@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E00E9621AC627B400C91E24 /* ObjFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00E9611AC627B400C91E24 /* ObjFW.framework */; };
 		6E00E99D1AC709DE00C91E24 /* CDACoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E00E99B1AC709DE00C91E24 /* CDACoder.h */; };
 		6E00E99E1AC709DE00C91E24 /* CDACoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00E99C1AC709DE00C91E24 /* CDACoder.m */; };
 		6E00E9A11AC70BFD00C91E24 /* CDAJSONKeyedArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E00E99F1AC70BFD00C91E24 /* CDAJSONKeyedArchiver.h */; };
 		6E00E9A21AC70BFD00C91E24 /* CDAJSONKeyedArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00E9A01AC70BFD00C91E24 /* CDAJSONKeyedArchiver.m */; };
+		6E9BCE921B0623AF00468229 /* ObjFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9BCE911B0623AF00468229 /* ObjFW.framework */; };
+		6E9BCE951B0623DD00468229 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9BCE941B0623DD00468229 /* libcurl.dylib */; };
+		6E9BCE981B06251E00468229 /* CDAURLClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9BCE961B06251E00468229 /* CDAURLClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E9BCE991B06251E00468229 /* CDAURLClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BCE971B06251E00468229 /* CDAURLClient.m */; };
+		6E9BCE9E1B0627B500468229 /* CDAEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9BCE9D1B0627B500468229 /* CDAEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E9BCEA11B06288600468229 /* CDAURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9BCE9F1B06288600468229 /* CDAURLRequest.h */; };
+		6E9BCEA21B06288600468229 /* CDAURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BCEA01B06288600468229 /* CDAURLRequest.m */; };
 		6EB86DAE1AA2EBFA00C7F454 /* CDAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86DAD1AA2EBFA00C7F454 /* CDAFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86DB41AA2EBFA00C7F454 /* CDAFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86DA81AA2EBFA00C7F454 /* CDAFoundation.framework */; };
 		6EB86DBB1AA2EBFA00C7F454 /* CDAFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86DBA1AA2EBFA00C7F454 /* CDAFoundationTests.m */; };
@@ -31,11 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6E00E9611AC627B400C91E24 /* ObjFW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjFW.framework; path = ../../../../../../Library/Frameworks/ObjFW.framework; sourceTree = "<group>"; };
 		6E00E99B1AC709DE00C91E24 /* CDACoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDACoder.h; sourceTree = "<group>"; };
 		6E00E99C1AC709DE00C91E24 /* CDACoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDACoder.m; sourceTree = "<group>"; };
 		6E00E99F1AC70BFD00C91E24 /* CDAJSONKeyedArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAJSONKeyedArchiver.h; sourceTree = "<group>"; };
 		6E00E9A01AC70BFD00C91E24 /* CDAJSONKeyedArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAJSONKeyedArchiver.m; sourceTree = "<group>"; };
+		6E9BCE911B0623AF00468229 /* ObjFW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjFW.framework; path = /Library/Frameworks/ObjFW.framework; sourceTree = "<absolute>"; };
+		6E9BCE941B0623DD00468229 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		6E9BCE961B06251E00468229 /* CDAURLClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAURLClient.h; sourceTree = "<group>"; };
+		6E9BCE971B06251E00468229 /* CDAURLClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAURLClient.m; sourceTree = "<group>"; };
+		6E9BCE9D1B0627B500468229 /* CDAEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAEnum.h; sourceTree = "<group>"; };
+		6E9BCE9F1B06288600468229 /* CDAURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAURLRequest.h; sourceTree = "<group>"; };
+		6E9BCEA01B06288600468229 /* CDAURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAURLRequest.m; sourceTree = "<group>"; };
 		6EB86DA81AA2EBFA00C7F454 /* CDAFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDAFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB86DAC1AA2EBFA00C7F454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EB86DAD1AA2EBFA00C7F454 /* CDAFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAFoundation.h; sourceTree = "<group>"; };
@@ -52,7 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E00E9621AC627B400C91E24 /* ObjFW.framework in Frameworks */,
+				6E9BCE951B0623DD00468229 /* libcurl.dylib in Frameworks */,
+				6E9BCE921B0623AF00468229 /* ObjFW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,10 +80,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E9BCE931B0623C900468229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E9BCE941B0623DD00468229 /* libcurl.dylib */,
+				6E9BCE911B0623AF00468229 /* ObjFW.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6EB86D9E1AA2EBFA00C7F454 = {
 			isa = PBXGroup;
 			children = (
-				6E00E9611AC627B400C91E24 /* ObjFW.framework */,
+				6E9BCE931B0623C900468229 /* Frameworks */,
 				6EB86DAA1AA2EBFA00C7F454 /* CDAFoundation */,
 				6EB86DB71AA2EBFA00C7F454 /* CDAFoundationTests */,
 				6EB86DA91AA2EBFA00C7F454 /* Products */,
@@ -93,6 +115,11 @@
 				6EB86E091AA2F4AA00C7F454 /* CDAInteger.h */,
 				6EB86DE81AA2ED7D00C7F454 /* CDAError.h */,
 				6EB86DE91AA2ED7D00C7F454 /* CDAError.m */,
+				6E9BCE961B06251E00468229 /* CDAURLClient.h */,
+				6E9BCE971B06251E00468229 /* CDAURLClient.m */,
+				6E9BCE9F1B06288600468229 /* CDAURLRequest.h */,
+				6E9BCEA01B06288600468229 /* CDAURLRequest.m */,
+				6E9BCE9D1B0627B500468229 /* CDAEnum.h */,
 				6E00E99B1AC709DE00C91E24 /* CDACoder.h */,
 				6E00E99C1AC709DE00C91E24 /* CDACoder.m */,
 				6E00E99F1AC70BFD00C91E24 /* CDAJSONKeyedArchiver.h */,
@@ -134,9 +161,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9BCE981B06251E00468229 /* CDAURLClient.h in Headers */,
+				6E9BCEA11B06288600468229 /* CDAURLRequest.h in Headers */,
 				6EB86DEA1AA2ED7D00C7F454 /* CDAError.h in Headers */,
 				6E00E99D1AC709DE00C91E24 /* CDACoder.h in Headers */,
 				6EB86DAE1AA2EBFA00C7F454 /* CDAFoundation.h in Headers */,
+				6E9BCE9E1B0627B500468229 /* CDAEnum.h in Headers */,
 				6EB86E0A1AA2F4AA00C7F454 /* CDAInteger.h in Headers */,
 				6E00E9A11AC70BFD00C91E24 /* CDAJSONKeyedArchiver.h in Headers */,
 			);
@@ -238,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9BCEA21B06288600468229 /* CDAURLRequest.m in Sources */,
 				6E00E99E1AC709DE00C91E24 /* CDACoder.m in Sources */,
 				6EB86DEB1AA2ED7D00C7F454 /* CDAError.m in Sources */,
 				6E00E9A21AC70BFD00C91E24 /* CDAJSONKeyedArchiver.m in Sources */,
+				6E9BCE991B06251E00468229 /* CDAURLClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
