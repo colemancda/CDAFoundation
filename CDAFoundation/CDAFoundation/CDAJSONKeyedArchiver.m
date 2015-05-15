@@ -19,7 +19,7 @@
 
 -(BOOL)containsValueForKey:(OFString *)key
 {
-    return false
+    return false;
 }
 
 @end

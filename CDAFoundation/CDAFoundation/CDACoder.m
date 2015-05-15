@@ -12,7 +12,9 @@
 
 -(instancetype)init
 {
-    [[OFInitializationFailedException exceptionWithClass:[self class]]];
+    [OFInitializationFailedException exceptionWithClass:[self class]];
+    
+    return nil;
 }
 
 -(BOOL)containsValueForKey:(OFString *)key
